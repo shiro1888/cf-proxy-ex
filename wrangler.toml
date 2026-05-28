@@ -1,3 +1,9 @@
 name = "cf-proxy-ex"
 main = "_worker.js"
 compatibility_date = "2025-07-13"
+workers_dev = true
+
+routes = [
+  { pattern = "proxy.shiro1888.com", custom_domain = true },
+  { pattern = "proxy.shiro666.com", custom_domain = true }
+]
